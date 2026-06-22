@@ -345,3 +345,16 @@ In future work, I would:
 3. Try class weighting or oversampling for minority labels.
 4. Increase the test set size.
 5. Compare DistilBERT with a stronger model such as RoBERTa.
+
+---
+
+## Demo Video
+
+▶️ **[Watch the demo (3–5 min)](https://www.loom.com/share/d00800008e394c878c666f84ef93abd0)**
+<!-- 
+The walkthrough covers:
+
+- The fine-tuned DistilBERT model classifying sample r/soccer posts, with the predicted **label** and **confidence** shown for each.
+- **One correct prediction** narrated — why the model got it right (e.g. the Ronaldo `opinion` example, which is personal judgment with no tactical evidence).
+- **One incorrect prediction** narrated — why it went wrong (e.g. the Uruguay/Cape Verde example, where `analysis` collapsed into `opinion` because "I wouldn't be surprised" reads as a personal take).
+- A brief walkthrough of the **evaluation report**: 55.9% fine-tuned accuracy vs. 76.5% zero-shot baseline, the confusion matrix showing `informational` and `analysis` never being predicted, and the ~0.26 confidence pattern that points to under-fitting. -->
